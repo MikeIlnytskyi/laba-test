@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\.husky",
+    "\\.husky\\_",
+    "\\api"
   ],
-  "SelectedNode": "\\D:\\Node\\laba1",
+  "SelectedNode": "\\.husky\\_",
   "PreviewInSolutionExplorer": false
 }
