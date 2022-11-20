@@ -10,6 +10,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:promise/recommended',
+    'plugin:n/recommended',
   ],
   overrides: [],
   parserOptions: {
