@@ -9,12 +9,13 @@ module.exports = {
     'prettier',
     'eslint:recommended',
     'plugin:react/recommended',
+    'plugin:promise/recommended',
   ],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['sonarjs', 'react'],
+  plugins: ['sonarjs', 'react', 'promise'],
   rules: {},
 }
