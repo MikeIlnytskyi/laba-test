@@ -11,12 +11,13 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:promise/recommended',
     'plugin:n/recommended',
+    'plugin:import/recommended',
   ],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['sonarjs', 'react', 'promise'],
+  plugins: ['sonarjs', 'react', 'promise', 'import'],
   rules: {},
 }
