@@ -6,12 +6,12 @@ module.exports = {
   extends: [
     'standard',
     'plugin:sonarjs/recommended',
-    'prettier',
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:promise/recommended',
     'plugin:n/recommended',
     'plugin:import/recommended',
+    'prettier',
   ],
   overrides: [],
   parserOptions: {
