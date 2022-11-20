@@ -7,7 +7,6 @@ module.exports = {
     'standard',
     'plugin:sonarjs/recommended',
     'eslint:recommended',
-    'plugin:react/recommended',
     'plugin:promise/recommended',
     'plugin:n/recommended',
     'plugin:import/recommended',
@@ -18,6 +17,6 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['sonarjs', 'react', 'promise', 'import'],
+  plugins: ['sonarjs', 'promise', 'import'],
   rules: {},
 }
